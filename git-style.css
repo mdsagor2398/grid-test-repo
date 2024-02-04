@@ -1,0 +1,70 @@
+.container {
+
+    height: 886px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 3, 1fr;
+    grid-auto-rows: 200px;
+
+}
+
+.container div {
+    text-align: center;
+    background-color: rgb(223, 236, 42);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    border: solid black 1px;
+}
+
+.Header {
+    text-align: center;
+    background-color: rgb(42, 236, 171);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+
+    /* grid-column: 1/-1; */
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(236, 42, 42);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(42, 126, 236);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-column-start: 2;
+    grid-column-end: -1; */
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(223, 236, 42);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+
+    /* grid-column: 1 / -1; */
+}

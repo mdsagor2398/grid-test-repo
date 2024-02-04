@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Grid</title>
+    <link rel="stylesheet" href="new-grid.css">
+    <style>
+        .container {
+            height: 777px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: 60px auto 60px;
+            grid-template-areas:
+                ". . h h h h h h h h h h"
+                "m m c c c c c c c c c c"
+                ". . f f f f f f f f f f";
+
+        }
+
+        .Header {
+            grid-area: h;
+
+        }
+
+        .menu {
+            grid-area: m;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            grid-area: c;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            grid-area: f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+
+</html>

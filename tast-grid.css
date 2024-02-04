@@ -1,0 +1,10 @@
+.star {
+    border: 1px solid black;
+    background-color: bisque;
+    font-size: 40px;
+    font-weight: 700;
+    /* width: 200px; */
+    /* height: 100px; */
+    text-align: center;
+
+}

@@ -1,0 +1,40 @@
+.Header {
+    background-color: rgb(236, 87, 87);
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.menu {
+    background-color: rgb(75, 235, 147);
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(17, 17, 17);
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.content {
+    background-color: rgb(62, 65, 247);
+    font-weight: 800;
+    font-size: 90px;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer {
+    background-color: rgb(240, 243, 77);
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+
+}
