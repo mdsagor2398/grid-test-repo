@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        .calender {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 10px;
+        }
+
+        .date {
+            background-color: rgb(114, 238, 131);
+            font-size: 45px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+        .day {
+            font-size: 30px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(24, 23, 23);
+            border-radius: 5px;
+            color: whitesmoke;
+            padding: 7px;
+        }
+
+        #extra {
+            background-color: lightgray;
+        }
+
+        #holyday {
+            color: rgb(233, 230, 230);
+            background-color: rgb(247, 91, 91);
+        }
+
+        header h2 {
+            text-align: center;
+            font-size: 34px;
+
+
+        }
+
+        header h1 {
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Calender-2024</h1>
+        <h2>February</h2>
+    </header>
+    <div class="calender">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+        <div class="day">Sun</div>
+        <div class="date" id="extra">29</div>
+        <div class="date" id="extra">30</div>
+        <div class="date" id="extra">31</div>
+        <div class="date">1</div>
+        <div class="date" id="holyday">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date" id="holyday">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date" id="holyday">14</div>
+        <div class="date">15</div>
+        <div class="date" id="holyday">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date" id="holyday">21</div>
+        <div class="date">22</div>
+        <div class="date" id="holyday">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date" id="holyday">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date" id="extra">1</div>
+        <div class="date" id="extra">2</div>
+        <div class="date" id="extra">3</div>
+
+    </div>
+</body>
+
+</html>
